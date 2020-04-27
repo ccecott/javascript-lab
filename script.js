@@ -27,3 +27,41 @@ while (true) {
         break;
     }
 }
+
+
+
+
+
+
+
+
+
+
+//extended challenge 
+
+let wage = 10;
+let hours = 60;
+let pay = (wage * hours);
+let overTimePay = (((hours - 40) * 1.5) + pay);
+
+if (hours > 40) {
+    console.log(overTimePay);
+} else {
+    console.log(pay);
+}
+
+//1,000,000 dollars
+let weekCount = 1;
+let y = 0;
+while (y < 1000000) {
+    weekCount++;
+    console.log(y += 630);
+    console.log(`${weekCount}`);
+
+
+
+}
+
+
+
+//Danielle helped
