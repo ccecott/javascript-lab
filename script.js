@@ -1,0 +1,29 @@
+const name = "Cassidy Cecott";
+const age = 22;
+const birthday = "October 6";
+const detroitGC = true;
+const lifeEvents = ["I was born in Palos Hills, IL", "I played competative ice hockey", "I moved to Milwaukee", "I moved back to Illinois"];
+
+if (detroitGC) {
+    console.log(`My name is ${name} and I am ${age} years old and was born ${birthday}.`);
+} else {
+    console.log(`My name is ${name} and I am a student at Grand Circus in Grand Rapids, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`);
+}
+
+for (let i = 0; i <= lifeEvents.length - 1; i++) {
+    console.log(lifeEvents[i]);
+}
+
+let counter = 0;
+
+while (true) {
+    let randomNumber = Math.floor(Math.random() * 10) + 1;
+    if (randomNumber !== 5) {
+        counter++
+        console.log(`${randomNumber} !==5`);
+    } else {
+        counter++
+        console.log(`5 === 5. It took ${counter} iterations to randomly generate the number 5`);
+        break;
+    }
+}
