@@ -51,17 +51,15 @@ if (hours > 40) {
 }
 
 //1,000,000 dollars
-let weekCount = 1;
+let weekCount = 0;
 let y = 0;
 while (y < 1000000) {
     weekCount++;
     console.log(y += 630);
     console.log(`${weekCount}`);
 
-
-
 }
+//1,587 weeks
 
 
-
-//Danielle helped
+// Danielle helped
